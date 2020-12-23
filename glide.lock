@@ -1,0 +1,32 @@
+hash: bf9404fd6da82a75986ec580068f8bc01f6fd9f2edc4753d5f41a71bbd737e43
+updated: 2017-03-15T12:07:10.841630971+01:00
+imports:
+- name: github.com/codegangsta/inject
+  version: 37d7f8432a3e684eef9b2edece76bdfa6ac85b39
+- name: github.com/go-martini/martini
+  version: 49411a5b646861ad29a6ddd5351717a0a9c49b94
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+  subpackages:
+  - dialects/sqlite
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+- name: github.com/martini-contrib/cors
+  version: 553b9208d353a39b0850c02355f478ba020c86d7
+- name: github.com/martini-contrib/render
+  version: ec18f8345a1181146728238980606fb1d6f40e8c
+- name: github.com/mattn/go-sqlite3
+  version: ca5e3819723d8eeaf170ad510e7da1d6d2e94a08
+- name: github.com/oxtoacart/bpool
+  version: 4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/net
+  version: d379faa25cbdc04d653984913a2ceb43b0bc46d7
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: e48874b42435b4347fc52bdee0424a52abc974d7
+  subpackages:
+  - unix
+testImports: []
